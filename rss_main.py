@@ -11,7 +11,7 @@ WP_USER = '' # WordPress username
 WP_PW = '' # WordPress password
 WP_URL = '' # WordPress post URL
 MERAKI_API_KEY = os.environ.get(MERAKI_DASHBOARD_API_KEY) || '' # get API key from OS env var or add it here manually
-MERAKI_NETWORK_ID = '' # Network ID that contains all the networks to check for new firmware
+MERAKI_NETWORK_ID = '' # Network ID that contains all the network types to check for new firmware
 
 
 # checks if json file exists
